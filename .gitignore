@@ -1,0 +1,13 @@
+# Environment variables / secrets - NEVER commit these
+.env
+
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Vector store artifacts (regenerated at runtime, no need to version them)
+faiss_index/
+
+# IDE
+.vscode/
